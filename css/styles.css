@@ -32,7 +32,7 @@ nav a {
 .home .title h1 {
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid black;
   line-height: 0.1em;
   margin: 10px 0 20px;
 }
@@ -41,16 +41,37 @@ nav a {
   padding: 0 10px;
 }
 .home .banner {
-  height: 50%;
-  background-color: lightcoral;
+  height: 500px;
+  width: 100%;
+  background-image: url(/images/ee9543cf64afabad17203865dcd10200.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home .banner h1 {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 152px;
+  color: black;
+  font-size: 100px;
 }
 .home .small-desc {
-  height: 50%;
-  background-color: lightcyan;
+  height: 100%;
 }
 .home .circle-imgs {
   height: 100%;
-  background-color: lightpink;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home .circle-imgs .col img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.home .circle-imgs .col p {
+  font-size: 20px;
+  text-align: center;
 }
 
 footer {

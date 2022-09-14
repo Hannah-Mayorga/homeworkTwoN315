@@ -5,27 +5,51 @@
         h1 {
             width: 100%; 
             text-align: center; 
-            border-bottom: 1px solid #000; 
+            border-bottom: 1px solid black; 
             line-height: 0.1em;
             margin: 10px 0 20px; 
+            span {
+                background: black; 
+                padding:0 10px; 
+            }
          } 
-         
-         h1 span { 
-             background: black; 
-             padding:0 10px; 
-             
-         }
     }
     .banner {
-        height: 50%;
-        background-color: lightcoral;
+        height: 500px;
+        width: 100%;
+       // background-color: lightcoral;
+        background-image: url(/images/ee9543cf64afabad17203865dcd10200.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1 {
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            top: 152px;
+            color: black;
+            font-size: 100px;
+        }
     }
     .small-desc {
-        height: 50%;
-        background-color: lightcyan;
+        height: 100%;
+      //  background-color: lightcyan;
     }
     .circle-imgs {
         height: 100%;
-        background-color: lightpink;
+       // background-color: lightpink;
+       display: flex;
+       justify-content: space-evenly;
+       .col {
+            img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+            }
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
+       }
     }
 }
