@@ -31,13 +31,13 @@ var homeContent = `        <div class="home">
 </div>
 <div class="circle-imgs">
     <div class="col">
-        <img src="/images/main-qimg-59f415c829b32b7237707bb694d9e010-lq.jpg" alt="">
+        <img src="./images/main-qimg-59f415c829b32b7237707bb694d9e010-lq.jpg" alt="">
     </div>
     <div class="col">
-        <img src="/images/6d9e25c302898871a5734c54a9d7efa7.jpg" alt="">
+        <img src="./images/6d9e25c302898871a5734c54a9d7efa7.jpg" alt="">
     </div>
     <div class="col">
-        <img src="/images/tCKhG5mCGLtPFruar7VhmD.jpg" alt="">
+        <img src="./images/tCKhG5mCGLtPFruar7VhmD.jpg" alt="">
     </div>
 </div>
 <div class="space-title">
@@ -68,24 +68,24 @@ var aboutContent = ` <div class="about">
 <div class="team-imgs">
 
     <div class="col">
-        <img src="/images/photo-1507003211169-0a1dd7228f2d.jpg" alt="" srcset="">
+        <img src="./images/photo-1507003211169-0a1dd7228f2d.jpg" alt="" srcset="">
         <h4>Ben Dover</h4>
         <p>President</p>
     </div>
     <div class="col">
-        <img src="/images/photo-1438761681033-6461ffad8d80.jpg" alt="" srcset="">
+        <img src="./images/photo-1438761681033-6461ffad8d80.jpg" alt="" srcset="">
         <h4>Jane Doe</h4>
         <p>Vice President</p>
     </div>
 </div>
 <div class="team-imgs">
     <div class="col">
-        <img src="/images/photo-1542909168-82c3e7fdca5c.jpg" alt="" srcset="">
+        <img src="./images/photo-1542909168-82c3e7fdca5c.jpg" alt="" srcset="">
         <h4>John Smith</h4>
         <p>Executive Director</p>
     </div>
     <div class="col">
-        <img src="/images/istockphoto-1336246945-170667a.jpg" alt="" srcset="">
+        <img src="./images/istockphoto-1336246945-170667a.jpg" alt="" srcset="">
         <h4>Ari Deer</h4>
         <p>Marketing & Design Lead</p>
     </div>
@@ -97,7 +97,7 @@ var servicesContent = `        <div class="services">
 </div>
 <div class="service">
     <div class="col">
-        <img src="/images/ams-repair-iss-640x353.jpg" alt="" srcset="">
+        <img src="./images/ams-repair-iss-640x353.jpg" alt="" srcset="">
     </div>
     <div class="col">
         <p>
@@ -122,12 +122,12 @@ var servicesContent = `        <div class="services">
         </p>
     </div>
     <div class="col">
-        <img src="/images/maxresdefault.jpg" alt="" srcset="">
+        <img src="./images/maxresdefault.jpg" alt="" srcset="">
     </div>
 </div>
 <div class="service">
     <div class="col">
-        <img src="/images/180515-nasa-spacewalk-ac-612p.jpg" alt="" srcset="">
+        <img src="./images/180515-nasa-spacewalk-ac-612p.jpg" alt="" srcset="">
     </div>
     <div class="col">
         <p>
