@@ -15,6 +15,6 @@ function initListeners() {
 
 $(document).ready(function () {
     // Turn back on once project is complete so home loads on start
-    // MODEL.setCurrentPageContent("home");
+    MODEL.setCurrentPageContent("home");
     initListeners();
 })

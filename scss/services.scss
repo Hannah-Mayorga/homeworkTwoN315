@@ -1,0 +1,33 @@
+.services {
+    height: 100%;
+    background-color: black;
+    .title {
+        h1 {
+            width: 100%; 
+            text-align: center; 
+            border-bottom: 1px solid black; 
+            line-height: 0.1em;
+            margin: 10px 0 20px; 
+            span {
+                background: black; 
+                padding:0 10px; 
+            }
+         } 
+    } 
+    .service {
+       // background-color: lightgray;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .col {
+            img {
+                height: 350px;
+                width: 550px;
+            }
+            p {
+                padding: 30px;
+                font-size: 25px;
+            }
+        }
+    }
+}

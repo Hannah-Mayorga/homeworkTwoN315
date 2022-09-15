@@ -1,8 +1,18 @@
 footer {
-    height: 150px;
-    background-color: black;
+    height: 175px;
+    background-color: white;
     display: flex;
     p {
-        color: white;
+        color: black;
+    }
+    .footer-address {
+        padding: 30px;
+        font-size: 25px;
+    }
+    .footer-copyright {
+        padding: 5px;
+        font-size: 15px;
+        font-style: italic;
+
     }
 }
